@@ -1,0 +1,110 @@
+@import url('https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgba(4, 189, 65, 0.744);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px ;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: #035167;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6em;
+}
+.Login {
+    display: inline-block;
+    margin-left: -665px;
+  }
+ 
+  .Login .fa-user {
+    color: rgb(1, 22, 1);
+  }
+
+.navigation a{
+    color: rgb(0, 80, 133);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-left: 30px ;
+
+}
+
+.navigation a:hover{
+    color: #5f1cfc55;
+
+}
+
+section {
+    padding: 200px 200px ;
+
+}
+
+.main {
+    color: cadetblue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    background: url(/Images/Hero-Banner_5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+}
+.main-btn {
+
+    color: white;
+    background-color: rgba(41, 176, 23, 0.798);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1865em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.social-icons a{
+    color: rgb(1, 25, 24);
+    font-size: 1.4em;
+    padding-right: 40px;
+}
+.footer {
+    background-color: #198553;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: white;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
