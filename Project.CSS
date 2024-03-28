@@ -9,7 +9,8 @@
 }
 
 header {
-    background-color: rgba(4,189, 65, 0.744);
+    background-color: #AFC1B6B0;
+    ;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -22,7 +23,8 @@ header {
 
 .logo{
     text-decoration: none;
-    color: #035167;
+    color: #BB8130;
+    ;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.6em;
@@ -37,7 +39,8 @@ header {
   }
 
 .navigation a{
-    color: rgb(0, 80, 133);
+    color: #BB8130;
+    ;
     text-decoration: none;
     font-size: 1.3em;
     font-weight: 500;
@@ -87,6 +90,59 @@ section {
     font-size: 1.4em;
     padding-right: 40px;
 }
+body {
+    font-family: Arial, sans-serif; /* Substitute for your actual font */
+  }
+  
+  .card {
+    background-color: #BA9E6257;
+    color: #18392B;
+
+    ; /* Substitute for your actual background color */
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 300px; /* Adjust as needed */
+    margin: 0 auto;
+    margin-top: 30px;
+
+    
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: px;
+  }
+  
+  input[type="text"], input[type="email"] {
+    color: black;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 122;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
 .footer {
     background-color: #198553;
     color: #fff;
