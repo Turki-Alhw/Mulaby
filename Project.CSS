@@ -155,16 +155,27 @@ body {
   }
   
 .footer {
-    background-color: #198553;
-    color: #fff;
-    padding: 2em;
-    display: flex;
-    justify-content: space-between;
+  background: linear-gradient(to top, #577763, #577763) bottom, linear-gradient(to bottom, #AFC1B6B0, #AFC1B6B0) top;
+  background-size: 100% 50%; /* Set the size for each background */
+  background-repeat: no-repeat; /* Prevent background from repeating */
+  color: white; /* Text color */
+  padding: 1px; /* Add padding for better spacing */
+  text-align: center;
+  font-family: Scheherazade New;
+font-size: 17px;
+font-weight: 500;
+line-height: 10px;
+text-align: center;
+
+
+
 }
 
 .footer-title {
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 600;
+    text-align: center;
+    margin-top: 88px;
 }
 
 .footer-title span {
@@ -174,6 +185,9 @@ body {
 .footer .social-icons a{
     font-size: 1.3em;
     padding: 0 12px 0 0;
+    padding-left: 88%;
+   position: relative;
+   top: -74px;
 }
 .services {
   width: 100%;
