@@ -32,6 +32,7 @@ header {
 .Login {
     display: inline-block;
     margin-left: -665px;
+    margin-bottom: 70px;
   }
  
   .Login .fa-user {
@@ -110,7 +111,8 @@ body {
   
   .logo {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+
   }
   
   .input-group {
