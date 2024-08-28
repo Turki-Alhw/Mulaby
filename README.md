@@ -1,2 +1,2 @@
-# Absher
-A web for sponsoring people to perform Haji.
+# Overveiw
+A platform to help people who are not able to perform Hajj or Umrah because of financial difficulties. The idea is to have a brief explanation of each individual datils by considering keeping their information private and showing the amount of the expenses of performing the rituals, so the donors can see the details and donate either in partial amount or sponsor the individual's expense fully.
